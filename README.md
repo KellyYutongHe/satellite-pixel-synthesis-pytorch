@@ -36,6 +36,15 @@ If you find our work useful, please cite the following paper:
   journal={arXiv preprint arXiv:2106.11485},
   year={2021}
 }
+@inproceedings{he2021spatial,
+  title={Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis},
+  author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B and Ermon, Stefano},
+  year={2021},
+  month={December},
+  abbr={NeurIPS 2021},
+  booktitle={Neural Information Processing Systems},
+}
+
 ```
 
 The code is based on the [styleganv2 pytorch implementation](https://github.com/rosinality/stylegan2-pytorch) and [CIPS pytorch implementation](https://github.com/saic-mdal/CIPS).
