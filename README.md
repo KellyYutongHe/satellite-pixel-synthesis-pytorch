@@ -26,8 +26,19 @@ To train EA64 on FMoW-Sentinel2 crop field dataset please run:
 
 > python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 fmow_train_3dis_attpatch.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
 
+## Citation
+
+If you find our work useful, please cite the following paper:
+```
+@article{he2021spatial,
+  title={Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis},
+  author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B and Ermon, Stefano},
+  journal={arXiv preprint arXiv:2106.11485},
+  year={2021}
+}
+```
 
 The code is based on the [styleganv2 pytorch implementation](https://github.com/rosinality/stylegan2-pytorch) and [CIPS pytorch implementation](https://github.com/saic-mdal/CIPS)
 
-Nvidia-licensed CUDA kernels (fused_bias_act_kernel.cu, upfirdn2d_kernel.cu) is for non-commercial use only.
+Nvidia-licensed CUDA kernels (fused_bias_act_kernel.cu, upfirdn2d_kernel.cu) are for non-commercial use only.
 
