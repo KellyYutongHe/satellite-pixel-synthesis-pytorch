@@ -30,12 +30,6 @@ To train EA64 on FMoW-Sentinel2 crop field dataset please run:
 
 If you find our work useful, please cite the following paper:
 ```
-@article{he2021spatial,
-  title={Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis},
-  author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B and Ermon, Stefano},
-  journal={arXiv preprint arXiv:2106.11485},
-  year={2021}
-}
 @inproceedings{he2021spatial,
   title={Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis},
   author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B and Ermon, Stefano},
