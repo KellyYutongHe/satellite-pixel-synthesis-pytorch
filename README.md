@@ -11,20 +11,21 @@ pip install -r requirements.txt
 
 
 To train EAD on Texas housing dataset please run:
-
-> python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train_3dis.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
-
+```
+python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train_3dis.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
+```
 To train EA64 on Texas housing dataset please run:
-
-> python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train_3dis_attpatch.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
-
+```
+python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train_3dis_attpatch.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
+```
 To train EAD on FMoW-Sentinel2 crop field dataset please run:
-
-> python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 fmow_train_3dis.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
-
+```
+python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 fmow_train_3dis.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
+```
 To train EA64 on FMoW-Sentinel2 crop field dataset please run:
-
-> python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 fmow_train_3dis_attpatch.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
+```
+python -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 fmow_train_3dis_attpatch.py --path TRAIN_PATH --test_path TEST_PATH --output_dir OUTPUT_DIR
+```
 
 ## Citation
 
