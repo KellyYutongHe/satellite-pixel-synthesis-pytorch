@@ -33,7 +33,7 @@ If you find our work useful, please cite the following paper:
 ```
 @inproceedings{he2021spatial,
   title={Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis},
-  author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B and Ermon, Stefano},
+  author={He, Yutong and Wang, Dingjie and Lai, Nicholas and Zhang, William and Meng, Chenlin and Burke, Marshall and Lobell, David B. and Ermon, Stefano},
   year={2021},
   month={December},
   abbr={NeurIPS 2021},
