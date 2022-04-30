@@ -1,5 +1,7 @@
 # Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis
-PyTorch implementation of NeurIPS 2021 paper "Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis"
+PyTorch implementation of NeurIPS 2021 paper "Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis" by Yutong He, Dingjie Wang, Nicholas Lai, William Zhang, Chenlin Meng, Marshall Burke, David B. Lobell and Stefano Ermon
+
+[Homepage](https://satellite-pixel-synthesis.github.io/)  [Paper](https://arxiv.org/abs/2106.11485) 
 
 **Note: Still under construction:)!**
 
