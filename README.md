@@ -48,6 +48,8 @@ If you find our work or datasets useful, please cite the following paper:
 
 ```
 
+If you use the FMoW-Sentinel dataset, please also cite the original [Functional Map of the World](https://arxiv.org/abs/1711.07846) paper.
+
 The code is based on the [styleganv2 pytorch implementation](https://github.com/rosinality/stylegan2-pytorch) and [CIPS pytorch implementation](https://github.com/saic-mdal/CIPS).
 
 Nvidia-licensed CUDA kernels (fused_bias_act_kernel.cu, upfirdn2d_kernel.cu) are for non-commercial use only.
