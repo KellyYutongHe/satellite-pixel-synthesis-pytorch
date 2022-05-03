@@ -48,7 +48,7 @@ If you find our work or datasets useful, please cite the following paper:
 
 ```
 
-If you use the FMoW-Sentinel dataset, please also cite the original [Functional Map of the World](https://arxiv.org/abs/1711.07846) paper in addition to ours.
+If you use the FMoW-Sentinel Crop Field dataset, please also cite the original [Functional Map of the World](https://arxiv.org/abs/1711.07846) paper in addition to ours.
 
 The code is based on the [styleganv2 pytorch implementation](https://github.com/rosinality/stylegan2-pytorch) and [CIPS pytorch implementation](https://github.com/saic-mdal/CIPS).
 
