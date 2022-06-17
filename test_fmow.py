@@ -19,7 +19,6 @@ from tqdm import tqdm
 
 import model
 from dataset import FMoWSentinel2Path, FSAllPatch
-from calculate_fid import calculate_fid
 from distributed import get_rank, synchronize, reduce_loss_dict
 from tensor_transforms import convert_to_coord_format
 import torchvision.models as models
